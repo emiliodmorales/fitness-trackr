@@ -7,17 +7,17 @@ export default function ActivityList({ activities }) {
       {activities.map((activity) => (
         <li key={activity.id}>
           {activity.name + " "}
-          <DeleteButton />
+          <DeleteButton activityId={activity.id} />
         </li>
       ))}
     </ul>
   );
 }
 
-function DeleteButton() {
+function DeleteButton({ activityId }) {
   const { token } = useAuth();
   if (!token) return;
   return (
-    <button onClick={() => deleteActivity(token, activity.id)}>delete</button>
+    <button onClick={() => deleteActivity(token, activityId)}>delete</button>
   );
 }
