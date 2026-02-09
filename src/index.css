@@ -45,3 +45,11 @@ ol {
 p[role="alert"] {
   color: red;
 }
+
+ul li button {
+  visibility: hidden;
+}
+
+ul li:hover button {
+  visibility: initial;
+}
