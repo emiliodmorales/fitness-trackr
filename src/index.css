@@ -47,9 +47,10 @@ p[role="alert"] {
 }
 
 ul li form {
-  display: none;
+  display: inline;
+  visibility: hidden;
 }
 
 ul li:hover form {
-  display: inline;
+  visibility: initial;
 }
