@@ -46,10 +46,10 @@ p[role="alert"] {
   color: red;
 }
 
-ul li button {
+ul li form {
   display: none;
 }
 
-ul li:hover button {
+ul li:hover form {
   display: inline;
 }
