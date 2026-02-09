@@ -47,9 +47,9 @@ p[role="alert"] {
 }
 
 ul li button {
-  visibility: hidden;
+  display: none;
 }
 
 ul li:hover button {
-  visibility: initial;
+  display: inline;
 }
