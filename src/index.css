@@ -48,9 +48,4 @@ p[role="alert"] {
 
 ul li form {
   display: inline;
-  visibility: hidden;
-}
-
-ul li:hover form {
-  visibility: initial;
 }
