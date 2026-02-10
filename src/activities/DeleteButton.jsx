@@ -7,7 +7,7 @@ export function DeleteButton({ activityId, syncActivities }) {
   const { token } = useAuth();
   if (!token) return;
 
-  const tryDeleteActivity = async (formData) => {
+  const tryDeleteActivity = async () => {
     setError(null);
 
     try {
